@@ -1,0 +1,29 @@
+{
+  "name": "reaction-bot-bolt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/config": "^0.0.34",
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.2",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "eslint": "^6.2.2",
+    "gulp": "^4.0.2",
+    "gulp-nodemon": "^2.4.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-typescript": "^5.0.1",
+    "jest": "^24.9.0",
+    "rimraf": "^3.0.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3",
+    "typescript-eslint": "0.0.1-alpha.0"
+  },
+  "dependencies": {
+    "@slack/bolt": "^1.2.0",
+    "@slack/logger": "^1.0.0",
+    "config": "^3.2.2",
+    "log4js": "^5.1.0"
+  }
+}
